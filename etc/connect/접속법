@@ -1,0 +1,35 @@
+ssh 접속
+ssh -i ./etc/connect/SSG.pem  ubuntu@52.78.107.225
+
+sftp 접속
+sftp -i ./etc/connect/SSG.pem ubuntu@52.78.107.225
+
+
+sftp>get [파일이름] // 파일 다운로드
+sftp>put [파일이름] // 파일 업로드
+
+압축 
+[root/]#  tar cvzf html.tar.gz html
+
+압축 해제
+[root/]# tar xvzf html.tar.gz html
+
+
+번역을 하자면 tar c(압축)v(보다)z(zip)f(forder(하위 디렉토리를 포함한 폴더를))
+
+"tar명령어(묶다)로 압축하는 과정을 보면서 zip파일로 html하위폴더까지 압축하고
+압축된 파일명은 html.tar.gz으로 하겠다"
+
+압축되는 과정을 눈으로 보고싶지 않다면, v옵션을 빼면 됨.
+
+추가 옵션 p
+permition 퍼미션 정보도 같이 저장됨.
+      
+tar czf asset.tar.gz asset
+tar czf css.tar.gz css
+tar czf img.tar.gz img
+
+
+sudo tar xzf asset.tar.gz
+sudo tar xzf css.tar.gz
+sudo tar xzf img.tar.gz

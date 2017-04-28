@@ -1,0 +1,529 @@
+{
+    "Edit": [{
+        "title": "에디터",
+        "explanation": "간단하게 코딩할 수 있는 사이트부터, 자신의 개발환경을 만들 수 있는 클라우드 IDE까지. 코딩에 필요한 에디터들. 언급된 속도는 사지방에서의 속도."
+    }, {
+        "href": "https://ide.goorm.io",
+        "src": "./img/listimg/Edit/goormIDE.jpg",
+        "hvalue": "구름IDE",
+        "pvalue": "한국에서 서비스하는 웹 IDE. 한국어로 되어 있어서 사용에 무리가 없지만 하나의 언어에 대한 컨테이너만 생성 가능하여 개발환경을 폭넓게 구성하지 못한다."
+    }, {
+        "href": "https://c9.io/",
+        "src": "./img/listimg/Edit/cloud9.png",
+        "hvalue": "Cloud9",
+        "pvalue": "Ubuntu 환경의 클라우드 웹 IDE. 구름IDE 보다 자유도가 높고 하나의 컨테이너로 자신의 작업공간을 충분히 마련 가능. 생활코딩에 수업도 있으니 영어가 부담스러운 사람도 사용 가능. 추가로 사지방의 경우 SSH 막아서 AWS나 개인 서버에 접속할수 없는데, Cloud9의 터미널을 통해 접속이 가능."
+    }, {
+        "href": "http://coding.sh/",
+        "src": "./img/listimg/Edit/codingsh.jpg",
+        "hvalue": "./coding.sh",
+        "pvalue": "간단하게 코딩을 하고 결과를 받아볼 수 있는 서비스. C, C++, JAVA, Python 언어 지원. 국내 회사인 스타트링크에서 제공하며 한국어라서 사용하기 편함."
+    }, {
+        "href": "https://ideone.com/",
+        "src": "./img/listimg/Edit/ideone.jpg",
+        "hvalue": "Ideone",
+        "pvalue": "간단히 코딩할 수 있는 사이트. 기본적으로 사용하기에 큰 무리가 없음. 모바일에서도 사용가능. 생활코딩 수업 존재."
+    }, {
+        "href": "https://www.tutorialspoint.com/codingground.htm",
+        "src": "./img/listimg/Edit/codingground.png",
+        "hvalue": "Coding Ground",
+        "pvalue": "많은 언어와 터미널까지 지원. 다른 비슷한 사이트들에 비해 기능이 많지만 느림."
+    }, {
+        "href": "https://glot.io",
+        "src": "./img/listimg/Edit/glotio.png",
+        "hvalue": "glot.io",
+        "pvalue": "파일을 여러개 생성해서 컴파일 할 수 있고, 뛰어난 Syntax Highlighting을 지원. 하지만 속도는 조금 느림."
+    }, {
+        "href": "https://repl.it/",
+        "src": "./img/listimg/Edit/replit.png",
+        "hvalue": "repl.it",
+        "pvalue": "깔끔한 UI와 빠른 속도. 사이트에서 강조하는 기능은 수업제작과 관련된 기능이지만 일반적인 사용에도 충분히 만족."
+    }, {
+        "href": "http://rextester.com/runcode",
+        "src": "./img/listimg/Edit/rextester.jpg",
+        "hvalue": "rextester",
+        "pvalue": "심플한 디자인 간단한 코딩 가능. 편집 에디터 선택가능. Mics(잡동사니)에서 여러 기능 제공."
+    }, {
+        "href": "https://codepen.io/",
+        "src": "./img/listimg/Edit/codepen.png",
+        "hvalue": "CodePen",
+        "pvalue": "웹 프론트엔드 개발 가능. 다른 사람들이 만든 소스코드를 수정해 나가며 공부."
+    }, {
+        "href": "https://jsfiddle.net/",
+        "src": "./img/listimg/Edit/jsfiddle.png",
+        "hvalue": "JSFiddle",
+        "pvalue": "HTML, CSS, JavaScript를 코딩. 외부 파일을 불러오거나 AJAX 통신 가능. 많은 js 라이브러리 사용 가능. 생활코딩 수업 존재."
+    }, {
+        "href": "http://jsbin.com",
+        "src": "./img/listimg/Edit/jsbin.png",
+        "hvalue": "JS Bin",
+        "pvalue": "HTML, CSS, JavaScript를 코딩할 수 있다. 많은 js 라이브러리를 사용할 수 있고 콘솔을 사용하여 바로 디버깅 가능."
+    }, {
+        "href": "http://sqlfiddle.com",
+        "src": "./img/listimg/Edit/sqlfiddle.png",
+        "hvalue": "SQL Fiddle",
+        "pvalue": "MySQL, Oracle, PostgreSQL, SQLite, MS SQL을 사용해서 직접 테이블를 만들고 질의가 가능."
+    }, {
+        "href": "http://regexr.com/",
+        "src": "./img/listimg/Edit/regexr.jpg",
+        "hvalue": "RegExr",
+        "pvalue": "정규 표현식을 작성하고 예시로 제공되는 텍스트를 통해 제대로 동작하는지 확인. 정규 표현식의 사용법과 레퍼런스 제공."
+    }, {
+        "href": "https://dotnetfiddle.net/",
+        "src": "./img/listimg/Edit/NETfiddle.png",
+        "hvalue": ".NET Fiddle",
+        "pvalue": ".NET Framework를 지원. c#과 f#, VB.NET을 사용할 수 있다. JSFiddle에서 영감을 받아 제작되어서 그런지 UI와 제공하는 기능이 비슷함."
+    }],
+    "Academy": [{
+            "title": "종합",
+            "explanation": "기본적인 프로그래밍 언어 뿐만 아니라 여러 분야에 걸친 수업들을 종합적으로 제공하는 사이트. 특정 기술에 특화되어 있는 사이트도 있다."
+        }, {
+            "href": "http://osam.oss.kr/",
+            "src": "./img/listimg/Academy/osam.jpg",
+            "hvalue": "국방부 오픈소스 아카데미",
+            "pvalue": "미래부와 국방부에서 주관하는 군 장병 SW역량강화 프로그램. 2015년 부터 시작됨. 6월부터 수강신청이 시작되고 9월에 평가를 거쳐 10월에 일주일간 SW 개발 캠프를 실시(16년 기준). 개인적으로 캠프는 군 생활중 참여할 가치가 있다고 생각. 여건이 된다면 무조건 참가하길."
+        }, {
+            "href": "https://mva.microsoft.com/",
+            "src": "./img/listimg/Academy/mva.png",
+            "hvalue": "Microsoft Virtual Academy",
+            "pvalue": "Microsoft에서 제공하는 무료 강의들. 거의 모든 강의가 영어로 되어있지만 한글자막이 지원되는 강의도 있음."
+        }, {
+            "href": "https://opentutorials.org/",
+            "src": "./img/listimg/Academy/Opentutorials.jpg",
+            "hvalue": "Opentutorials",
+            "pvalue": "수업, 메뉴얼, 소설과 같이 순서가 있는 컨텐츠를 잘 담아낼 수 있는 서비스. 수많은 강의가 있지만 주로 웹과 관련된 수업들이 많음."
+        }, {
+            "href": "https://edu.goorm.io/",
+            "src": "./img/listimg/Academy/goormEDU.jpg",
+            "hvalue": "구름EDU",
+            "pvalue": "강의를 보면서 개발 환경을 별도로 설치하지 않고도 바로 코딩하고 실행하면서 공부. 수업이 많이는 없다."
+        }, {
+            "href": "https://tryhelloworld.co.kr/",
+            "src": "./img/listimg/Academy/helloworld.jpg",
+            "hvalue": "&#123;&#42;&#125;Helloworld",
+            "pvalue": "동영상 강의를 통해서 프로그래밍을 학습할 수 있으며 프로그래밍 언어에 대한 수업들이 대부분. 이론공부와 실습이 적절히 섞여있으며 강의가 보통 10분 내외로 구성. 알고리즘 문제를 풀 수 있는 기능도 제공."
+        }, {
+            "href": "https://www.inflearn.com/",
+            "src": "./img/listimg/Academy/inflearn.png",
+            "hvalue": "Inflearn",
+            "pvalue": "앱 & 웹 개발부터 컴퓨터 그래픽까지 여러 수업들을 들을 수 있다. 유료 수업도 존재. 다른 사이트의 수업이 제공되는 경우도 있음."
+        }, {
+            "href": "http://www.edwith.org/",
+            "src": "./img/listimg/Academy/edwith.jpg",
+            "hvalue": "edwith",
+            "pvalue": "커넥트 재단에서 만든 MOOC를 지향하는 사이트. 소프트웨어, 모바일, 스타트업 등 IT분야의 여러 강의를 무료로 볼 수 있다. edwith앱도 존재하며 안드로이드와 iOS 둘다 지원한다. "
+        }, {
+            "href": "https://edu.kocca.kr",
+            "src": "./img/listimg/Academy/kocca.jpg",
+            "hvalue": "한국 콘텐츠 아카데미",
+            "pvalue": "한국콘텐츠진흥원의 콘텐츠 전문인력 양성기관. 방송, 게임 등 여러 분야의 강의들이 존재."
+        }, {
+            "href": "https://tacademy.sktechx.com/live/player/listOnline.action",
+            "src": "./img/listimg/Academy/tacademy.jpg",
+            "hvalue": "T아카데미",
+            "pvalue": "SK techx에서 운영하는 모바일 ICT 전문교육센터. 실제 오프라인 강의인 캠퍼스 과정도 있지만, 링크로 연결되는 동영상 강의는 T아카데미의 강의를 수강신청 후 바로 들을 수 있다."
+        }, {
+            "href": "http://soen.kr/",
+            "src": "./img/listimg/Academy/soen.jpg",
+            "hvalue": "소프트웨어 공학 연구소",
+            "pvalue": "프로그래밍 언어, 운영체제의 API, 각종 라이브러리와 개발툴 등 소프트웨어 개발에 관련된 이론을 연구하고 강의를 제공."
+        }, {
+            "href": "https://www.flearning.net/",
+            "src": "./img/listimg/Academy/flearning.jpg",
+            "hvalue": "플러닝",
+            "pvalue": "플립 러닝 방식의 프로그래밍 교육 플랫폼. 플립 러닝은 수업에 앞서 강의 영상을 미리 학습하고, 강의실에서는 토론이나 과제 풀이를 진행하는 형태의 수업 방식. 프리미엄코스(유료)와 무료온라인코스가 있다. 단순한 이론수업이 아닌 여러 프로젝트를 진행하기 때문에 실질적인 결과물이 생성."
+        }, {
+            "href": "http://opensource.kofac.re.kr/",
+            "src": "./img/listimg/Academy/odiy.jpg",
+            "hvalue": "ODIY(Opensource DIY)",
+            "pvalue": "아두이노, 라즈베리파이, 비글보드, 갈릴레오 등 오픈 소스기반의 초소형 컴퓨터와 이를 활용하는 방법에 대해 쉽게 배울수 있는 온라인 학습사이트. 자신의 자료를 공유하고 소통할 수 있는 공간도 제공. 한국과학창의재단이 운영."
+        }, {
+            "href": "http://tcpschool.com/",
+            "src": "./img/listimg/Academy/tcpschool.jpg",
+            "hvalue": "TCP SCHOOL",
+            "pvalue": "웹 사이트 접속만으로도 쉽게 코딩 공부를 할 수 있도록 하는 것이 목표. 웹상에서 바로 실행시켜 볼 수 있는 온라인 에디터 제공. 현재(16년 11월)는 Web과 관련된 강의만 오픈되어 있지만, 차후 다른 강의도 공개될 예정."
+        }, {
+            "href": "http://koreasw.org/",
+            "src": "./img/listimg/Academy/koreasw.jpg",
+            "hvalue": "Korea SW",
+            "pvalue": "초·중등생 대상 온라인 소프트웨어 교육 사이트. 그래서 일반적인 프로그래밍 강의 외 컴퓨터과학이나 창의력과 융합에 관한 강의들도 제공."
+        }, {
+            "href": "http://brainwiki.net/ko",
+            "src": "./img/listimg/Academy/brainwiki.png",
+            "hvalue": "BRAIN WIKI",
+            "pvalue": "각 수업을 뉴런으로 설정하여 이를 연결하는 식으로 강의를 제공. 현재 5개의 과정을 제공하지만 모두 Youtube에 공개된 기존의 강의여서 해당 사이트를 꼭 사용해야할 이유는 없다."
+        }
+
+    ],
+    "Book": [{
+            "title": "책",
+            "explanation": "인터넷에 무료로 공개된 책과 문서들. 책이나 문서들을 모아놓은 사이트. 그리고 책에 대한 정보를 확인할 수 있는 사이트."
+        }, {
+            "href": "https://www.mindmeister.com/users/channel/86528",
+            "src": "./img/listimg/Book/geapmapsi.jpg",
+            "hvalue": "개발자의 앞길에 맵핵 시전 (개앞맵시)",
+            "pvalue": "각 분야별로 초심자들이 볼만한 책들을 마인드 맵으로 소개한다. 이복연(한빛미디어 IT 출판부)님이 취미로 만들기 때문에 한빛미디어 책이 많다. 들어가면 왼쪽에 개앞맵시 사용설명서 링크도 있으니 참고바람."
+        }, {
+            "href": "https://wikidocs.net/",
+            "src": "./img/listimg/Book/wikidocs.jpg",
+            "hvalue": "WikiDocs",
+            "pvalue": "온라인 책을 제작 공유하는 플랫폼 서비스. 점프 투 파이썬 등 여러책들이 무료로 공개되어 있다."
+        }, {
+            "href": "https://www.thebook.io/",
+            "src": "./img/listimg/Book/thebook.png",
+            "hvalue": "더북",
+            "pvalue": "도서 출판 길벗에서 제공하는 전문서적 열람 서비스. IT 도서를 온라인에서 무료로 열람할 수 있다."
+        }, {
+            "href": "http://pyrasis.com/",
+            "src": "./img/listimg/Book/pyrasis.png",
+            "hvalue": "Pyrasis",
+            "pvalue": "이재홍 작가님의 개인 홈페이지. 아마존 웹 서비스를 다루는 기술, 가장 빨리 만나는 Go 언어, 가장 빨리 만나는 도커(Docker)의 원고를 무료로 볼 수 있다. 그 외 유용한 정보들도 있다."
+        }, {
+            "href": "https://wikidocs.net/book/1",
+            "src": "./img/listimg/Book/jumptopython.jpg",
+            "hvalue": "점프 투 파이썬",
+            "pvalue": "파이썬을 처음 접하거나프로그래밍을 한 번도 해 본적이 없는 사람들을 대상한 책. 15년간 수정되어 왔고 오프라인 책도 출간되었다. WikiDocs의 대표적인 책. 박응용님 저."
+        }, {
+            "href": "http://codingnuri.com/golang-book/",
+            "src": "./img/listimg/Book/go.jpg",
+            "hvalue": "Go 프로그래밍 입문",
+            "pvalue": "An Introduction to Programming in Go의 한국어 번역판. 원작자의 허락하에 번역하였지만, 공식 한국어 번역판은 아니다. 코딩누리에서 번역."
+        }, {
+            "href": "http://codingnuri.com/javascript-tutorial/",
+            "src": "./img/listimg/Book/javascript.png",
+            "hvalue": "자바스크립트 자습서",
+            "pvalue": "IT In Practice에 실린 자바스크립트 강좌를 원작자의 허락하에 번역하여 책으로 묶었다. 코딩누리에서 번역."
+        }, {
+            "href": "http://www.hanbit.co.kr/media/openbook/cocos2d-x/index.html",
+            "src": "./img/listimg/Book/coco.jpg",
+            "hvalue": "만들면서 배우는 Cocos2d-x 퍼즐 게임",
+            "pvalue": "실제로 간단한 게임을 만들면서 Cocos2d-x를 배우는 책. 한빛미디어에 서적으로 출판하려 했으나 여러 사정으로 책으로는 출판하지 못하고 웹에 공개되었다고 한다. 이동연님 저."
+        }, {
+            "href": "https://git-scm.com/book/ko/v2",
+            "src": "./img/listimg/Book/gitpro.jpg",
+            "hvalue": "Pro git v2 한글판",
+            "pvalue": " GIT의 기본적인 사용법부터 고급 기능까지를 언제 어떻게 사용하는지 그림과 함께 알려준다. Github의 CIO이자 GIT의 에반젤리스트인 스캇 샤콘 저. 오프라인 책도 판매중."
+        }, {
+            "href": "https://www.gitbook.com/book/rorlab/railsguidebook/details",
+            "src": "./img/listimg/Book/rails.jpg",
+            "hvalue": "초보자를 위한 레일스 가이드북 v1.0.6",
+            "pvalue": "이제 막 루비 온 레일스를 시작하는 개발자를 대상으로, 실무 프로젝트를 따라 하면서 루비 온 레일스의 전반적인 내용을 쉽게 이해할 수 있도록 한 책. RORLAB 공동집필."
+        }, {
+            "href": "https://www.gitbook.com/book/gosudaweb/effective-go-in-korean/details",
+            "src": "./img/listimg/Book/effectivego.jpg",
+            "hvalue": "효과적인 Go 프로그래밍(Effective Go)",
+            "pvalue": "명확하고 Go 언어다운 Go코드를 작성하는 팁을 제공. 깃북에서 쓰여진 Effective Go 한국어 번역 문서. Philbert Yoon님 외 다수 공동번역."
+        }, {
+            "href": "https://www.gitbook.com/book/mug896/shell-script/details",
+            "src": "./img/listimg/Book/bashshellscript.jpg",
+            "hvalue": "Bash Shell Script",
+            "pvalue": "Unix계열 OS에서 쓰이는 Shell Script에 대한 가이드 북. Ubuntu 15.04, Bash version 4.3 기준. mug896님 저"
+        }, {
+            "href": "http://hdnua.tistory.com/2",
+            "src": "./img/listimg/Book/jscc.jpg",
+            "hvalue": "JSCC: JavaScript로 개발하는 C Compiler",
+            "pvalue": "JavaScript 프로그래밍 언어를 이용하여 C 프로그래밍 언어의 컴파일러를 개발하는 프로젝트. 저자가 공군 복무기간 동안 진행한 프로젝트를 문서로 엮었다. 한도영 저."
+        }
+
+    ],
+    "Language": [{
+            "title": "언어",
+            "explanation": "특정 언어나 기술에 대한 글 혹은 사이트들. 혹은 초심자를 위한 공부자료들. (웹은 많아서 따로 작성.)"
+        }, {
+            "href": "http://sunyzero.tistory.com/225",
+            "src": "./img/listimg/Language/c.jpg",
+            "hvalue": "C언어 공부법과 책추천",
+            "pvalue": "제대로된 C언어 공부법과 C언어를 제대로 배울 수 있는 교재 추천에 대한 글"
+        }, {
+            "href": "https://dojang.io/",
+            "src": "./img/listimg/Language/codingdojang.jpg",
+            "hvalue": "코딩 도장",
+            "pvalue": "길벗에서 출판한 &#34;C언어 코딩 도장&#34; 책(무료로 공개되어 있다.)을 바탕으로 동영상 수업을 듣고 테스트를 받을 수 있다."
+        }, {
+            "href": "https://speakerdeck.com/devxoul/swift-honja-gongbuhamyeon-bunmyeonghi-anhaltenigga-gati-gongbuhagi",
+            "src": "./img/listimg/Language/swift.jpg",
+            "hvalue": "Swift - 혼자 공부하면 분명히 안할테니까 같이 공부하기",
+            "pvalue": "Swift를 공부하고 싶은 초심자들을 위한 프레젠테이션 자료. swift가 어떤 언어인지 간단하게 맛볼 수 있다."
+        }, {
+            "href": "http://rorlab.org/",
+            "src": "./img/listimg/Language/RORLab.png",
+            "hvalue": "RORLAB",
+            "pvalue": "루비/루비온레일스를 위한 커뮤니티. &#34;초보자를 위한 레일스 가이드북&#34; 등의 온라인 전자책과 동영상 강의를 볼 수 있다. 그리고 루비/레일스 전용 용어집 서비스도 제공."
+        }, {
+            "href": "http://modernpug.github.io/php-the-right-way/",
+            "src": "./img/listimg/Language/php.jpg",
+            "hvalue": "PHP : The Right Way",
+            "pvalue": "PHP를 사용하는 사람들에게 널리 받아들여진 코딩 표준, 권위있는 튜토리얼로의 링크를 제공. 현 시점에서 PHP의 베스트 프랙티스라고 할 수 있는 내용들을 알려줌."
+        }, {
+            "href": "http://ruby-korea.github.io/",
+            "src": "./img/listimg/Book/ruby.png",
+            "hvalue": "루비 프로그래밍 언어 한국어 문서",
+            "pvalue": "루비 프로그래밍 언어에 관한 한국어 문서를 모아둔 사이트. Ruby Korea 그룹 작성."
+        }, {
+            "href": "http://guides.rorlab.org/",
+            "src": "./img/listimg/Book/rubyonrails.png",
+            "hvalue": "루비온레일스 가이드 한국어 번역",
+            "pvalue": "Ruby on Rails 가이드의 한국어 번역판. 많은 내용들이 있지만 번역이 완료되지 않은 항목도 있다."
+        }
+
+    ],
+    "Network": [{
+            "title": "웹",
+            "explanation": "웹 기술들을 배우거나 관련 정보를 알 수 있는 글 혹은 사이트들. 초심자의 입장에서 배울만한 것들을 모았다."
+        }, {
+            "href": "https://opentutorials.org/course/1",
+            "src": "./img/listimg/Network/livingcoding.jpg",
+            "hvalue": "생활코딩",
+            "pvalue": "Opentutorials에서 가장 유명한 코스. 거의 모든 수업은 egoing님이 제작하였다. 기본적으로 웹 어플리케이션 개발에 대한 수업이 많지만 그 외 많은 수업이 존재한다."
+        }, {
+            "href": "http://www.codelion.net/",
+            "src": "./img/listimg/Network/codelion.jpg",
+            "hvalue": "코드라이언",
+            "pvalue": "멋쟁이 사자처럼의 수강생들이 만든 웹 사이트 8주 완성 교육 사이트. 아쉽게도 8주차 수업 부터는 업데이트 되지 않고있다."
+        }, {
+            "href": "http://webberstudy.com/",
+            "src": "./img/listimg/Network/webberstudy.jpg",
+            "hvalue": "웨버 스터디",
+            "pvalue": "웹 개발의 첫걸음을 떼게 해준다. 처음 시작하는 사람들을 위한 강의를 제공. HTML과 CSS를 배울 수 있다."
+        }, {
+            "href": "http://ko.learnlayout.com/",
+            "src": "./img/listimg/Network/css.jpg",
+            "hvalue": "CSS 레이아웃을 배웁시다",
+            "pvalue": "모든 웹 사이트의 레이아웃에 사용되는 CSS의 기초를 다룬다."
+        }, {
+            "href": "https://aws.amazon.com/ko/getting-started/tutorials/",
+            "src": "./img/listimg/Network/aws.jpg",
+            "hvalue": "AWS 10분 자습서",
+            "pvalue": "AWS를 체험할 수 있는 간단한 기술 문서, AWS 기술들을 사용하는 방법을 간단하게 배울 수 있다."
+        }, {
+            "href": "https://www.html5rocks.com/ko/",
+            "src": "./img/listimg/Network/html5rocks.jpg",
+            "hvalue": "HTML5Rocks 한글 버전",
+            "pvalue": "특정 기능들에 대한 정보, 최근 사용되는 HTML5 리소스들을 알려주는 사이트인 HTML5Rocks의 한국어 버전. 튜토리얼에 있는 글들은 많이 번역되어 있지만 그 외 글들은 거의 번역되지 않았다."
+        }, {
+            "href": "http://html5ref.clearboth.org/",
+            "src": "./img/listimg/Network/html5openreference.jpg",
+            "hvalue": "HTML5 오픈 레퍼런스",
+            "pvalue": "클리어보스 HTML5 그룹에서 만든 레퍼런스 페이지. HTML5 명세를 좀 더 쉽게 이해하고, 웹 제작자들이 빠르게 요소와 속성을 찾아볼 수 있도록 도와준다. PDF 파일도 존재."
+        }, {
+            "href": "http://maczniak.github.io/bootstrap/index.html",
+            "src": "./img/listimg/Network/bootstrap.jpg",
+            "hvalue": "부트스트랩 한글 메뉴얼",
+            "pvalue": "부트스트랩 v2.3.2의 한글 번역 문서. 더 이상 공식지원하지 않는 버전이지만, 부트스트랩을 처음 접하는 사람은 부트스트랩을 어떻게 사용하는지 감 잡을 수 있게 해준다."
+        }, {
+            "href": "http://d2.naver.com/home",
+            "src": "./img/listimg/Network/naverd2.jpg",
+            "hvalue": "네이버 D2",
+            "pvalue": "개발자를 위한 개발자들의 사이트. 네이버 내부 개발 경험 공유 및 오픈소스, 기술 세미나, 커뮤니티 정보들을 알 수 있다."
+        }, {
+            "href": "http://d2.naver.com/helloworld/59361",
+            "src": "./img/listimg/Network/browser.jpg",
+            "hvalue": "브라우저는 어떻게 동작하는가?",
+            "pvalue": "네이버 D2에 올라온 번역글. 브라우저의 작동과정을 자세히 알 수 있다."
+        }, {
+            "href": "http://readme.skplanet.com/?p=9739#s1",
+            "src": "./img/listimg/Network/responsiveweb.jpg",
+            "hvalue": "반응형 웹 기술 이해",
+            "pvalue": "SK플래닛 기술 블로그에 올라온 글. 반응형 웹 기술의 기본적인 원리와 실제 구현 시 빈번하게 마주치는 문제에 대한 해결 방법을 설명."
+        }
+
+    ],
+    "Training": [{
+            "title": "알고리즘",
+            "explanation": "알고리즘 문제를 풀며 실력을 향상시킬 수 있는 알고리즘 트레이닝 사이트들. 그리고 알고리즘을 시각적으로 보면서 배울 수 있는 사이트들"
+        }, {
+            "href": "https://www.acmicpc.net/",
+            "src": "./img/listimg/Training/BaekjoonOnlineJudge.jpg",
+            "hvalue": "Baekjoon Online Judge",
+            "pvalue": "단계별, 알고리즘별 문제 분류 및 대회 기출 문제들까지 제공. 많은 문제들을 번역하여 제공하며, 직접 번역에 참여할 수도 있다. 총 50여종의 컴파일러를 지원. 관리자인 최백준씨가 오프라인에서 알고리즘 문제 풀이 강연을 하고, 방학에는 코딩 캠프를 주최하기도 한다."
+        }, {
+            "href": "http://www.koistudy.net",
+            "src": "./img/listimg/Training/KOISTUDY.jpg",
+            "hvalue": "KOISTUDY",
+            "pvalue": "기초 100제, IamCoder 대회, C++ Library등을 공부하거나, 한국정보올림피아드를 준비할 수도 있다. C언어와 C++, Java로만 제출이 가능. 경기과학고등학교 소유."
+        }, {
+            "href": "http://codeup.kr",
+            "src": "./img/listimg/Training/codeup.jpg",
+            "hvalue": "CodeUp",
+            "pvalue": "한국정보올림피아드만 대비 하는 것이 아니라 프로그래밍 입문을 쉽게 할 수 있도록 해준다. 경남정보고등학교 소유."
+        }, {
+            "href": "http://www.jungol.co.kr/",
+            "src": "./img/listimg/Training/jungol.jpg",
+            "hvalue": "JUNGOL",
+            "pvalue": "정보올림피아드 및 프로그래밍 대회에 나온 문제들이 다 실려있다. 사이트 전용 교재인 자기주도 C언어 프로그래밍을 통하여 기초를 다지기 쉽다. 안양에 위치한 한글과컴퓨터학원에서 운영하는 사이트."
+        }, {
+            "href": "http://www.dovelet.com",
+            "src": "./img/listimg/Training/dovelet.jpg",
+            "hvalue": "dovelet",
+            "pvalue": "수많은 문제를 30단계로 나누어 놓은 '30계단'과 분류 없이 문제를 둔 '옥상'을 통해서 실력을 향상시킬 수 있다. 다만 4단계 부터는 정회원이 되어야 하는데 이때 회비를 내야한다. 즉 부분적 무료. C, C++, Java, Python, Perl 언어로 제출 가능."
+        }, {
+            "href": "https://visualgo.net",
+            "src": "./img/listimg/Training/visualgo.jpg",
+            "hvalue": "VisualGo",
+            "pvalue": "알고리즘을 시각적으로 학습할 수 있다. 많은 알고리즘이 있다. 사용법을 익히는 e-Lecture 모드와 사용자가 직접 값을 넣어가며 테스트 할 수 있는 Exploration모드가 있다. "
+        }, {
+            "href": "http://algo-visualizer.jasonpark.me",
+            "src": "./img/listimg/Training/algorithmvisualizer.jpg",
+            "hvalue": "Algorithm Visualizer",
+            "pvalue": "javascript로 알고리즘을 작성한 후 이를 시각적으로 확인할 수 있다."
+        }, {
+            "href": "https://www.toptal.com/developers/sorting-algorithms/",
+            "src": "./img/listimg/Training/saa.jpg",
+            "hvalue": "Sorting Algorithm Animations",
+            "pvalue": "8가지의 정렬 알고리즘이 어떠한 방식으로 작동하는지 시각적으로 확인할 수 있고, 해당 알고리즘의 수도코드를 확인 할 수 있다."
+        }, {
+            "href": "http://algo-rythmics.ms.sapientia.ro",
+            "src": "./img/listimg/Training/algo-rythmics.jpg",
+            "hvalue": "Algo-rythmics",
+            "pvalue": "헝가리언 포크 댄스를 통해서 정렬을 쉽고 재미있게 배울 수 있다."
+        }
+
+    ],
+    "Tools": [{
+            "title": "도구들",
+            "explanation": "개발 및 프로그래밍에 필요한 여러 도구들. 혹은 이러한 도구들의 사용법을 배울 수 있는 사이트들."
+        }, {
+            "href": "https://vi.kldp.net/step.html",
+            "src": "./img/listimg/Tools/vi.png",
+            "hvalue": "vi step by step으로 배우기",
+            "pvalue": "유닉스 계열 OS에서 사용되는 에디터인 vi를 단계별로 차근차근 배울 수 있는 사이트."
+        }, {
+            "href": "http://www.openvim.com/",
+            "src": "./img/listimg/Tools/vim.jpg",
+            "hvalue": "Interactive Vim tutorial",
+            "pvalue": "가상의 터미널 화면에서 Vim의 단축키 및 사용법을 익힐 수 있는 연습사이트."
+        }, {
+            "href": "https://rogerdudler.github.io/git-guide/index.ko.html",
+            "src": "./img/listimg/Tools/git.jpg",
+            "hvalue": "Git 간편 안내서",
+            "pvalue": "Git이 어떻게 작동하고 사용되는지 아주 간단하게 알아 볼 수 있는 안내서. Roger Dudler가 만들고 Juntai Park과 Ardie Hwang이 번역."
+        }, {
+            "href": "http://backlogtool.com/git-guide/kr/",
+            "src": "./img/listimg/Tools/easygit.jpg",
+            "hvalue": "누구나 쉽게 이해할 수 있는 Git 입문",
+            "pvalue": "초보자도 이해할 수 있도록 Git을 사용하는 방법을 그림과 함께 설명. 초보자를 위한 입문편과 Git 사용자를 위한 발전편이 있으며, 원하는 기능만 알아볼 수 있는 찾아보기 서비스를 제공."
+        }, {
+            "href": "http://learngitbranching.js.org/",
+            "src": "./img/listimg/Tools/gitbranch.jpg",
+            "hvalue": "Git 브랜치 배우기",
+            "pvalue": "git을 쓸 때 필요한 브랜치에 대한 개념을 탄탄히 잡게끔 도와준다. 이론과 실습을 병해하며 배울수 있다. Peter Cottle님의 LearnGitBranching을 번역. 해당 사이트를 번역한 또 다른 사이트가 있는데 그 사이트는 번역이 많이 덜 되어있다."
+        }, {
+            "href": "http://www.regexper.com/",
+            "src": "./img/listimg/Tools/Regexper.jpg",
+            "hvalue": "Regexper",
+            "pvalue": "사용자가 작성한 정규표현식을 시각화해주는 서비스."
+        }, {
+            "href": "http://aquerytool.com/",
+            "src": "./img/listimg/Tools/AQueryTool.jpg",
+            "hvalue": "AQueryTool",
+            "pvalue": "웹 기반 ERD 툴 + SQL 자동 생성 프로그램. 해당 홈페이지의 Help에 사용법이 나와있다."
+        }, {
+            "href": "http://www.mockaroo.com/",
+            "src": "./img/listimg/Tools/mockaroo.png",
+            "hvalue": "Mockaroo",
+            "pvalue": "데이터베이스의 가짜 정보를 생성."
+        }, {
+            "href": "https://ovenapp.io/",
+            "src": "./img/listimg/Tools/oven.png",
+            "hvalue": "oven",
+            "pvalue": "다음카카오에서 제작한 웹 사이트 프로토타이핑 툴. 간단하게 웹사이트의 프로토 타입을 만들 수 있다. 사용법은 생활코딩 수업 참고."
+        }, {
+            "href": "http://troy.labs.daum.net",
+            "src": "./img/listimg/Tools/troy.jpg",
+            "hvalue": "Troy",
+            "pvalue": "다음에서 만든 반응형 웹 페이지 테스트 도구. 스마트폰, 태블릿, PC에서의 화면크기에 따른 웹사이트의 모습을 확인할 수 있다."
+        }, {
+            "href": "https://developers.google.com/speed/pagespeed/insights/",
+            "src": "./img/listimg/Tools/PageSpeedInsights.jpg",
+            "hvalue": "PageSpeed Insights",
+            "pvalue": "특별한 도구를 설치하지 않고 온라인에서 자신의 웹사이트의 퍼포먼스를 측정해주는 구글 개발 도구."
+        }, {
+            "href": "https://kr.piliapp.com/minify/yui-compressor/",
+            "src": "./img/listimg/Tools/YUI.jpg",
+            "hvalue": "Online YUI Compressor",
+            "pvalue": "YUI Compressor는 Yahoo의 UI Library 중 하나로 javascript와 css 파일 크기를 최소화 시킴으로서 js,css 파일의 다운로드 속도를 개선해주는 라이브러리. 이러한 YUI Compressor를 웹에서 사용할 수 있도록 해주는 사이트."
+        }, {
+            "href": "https://closure-compiler.appspot.com/home",
+            "src": "./img/listimg/Tools/ClosureCompiler.jpg",
+            "hvalue": "Closure Compiler",
+            "pvalue": "Google에서 공개한 Closure Tools 중 하나. Jvascript를 압축하고 고성능의 코드로 컴파일. 컴파일러가 필요없는 코드(dead code)를 제거하고 재작성하고 압축. 그리고 syntax, 변수 참조, types를 체크하고 경고."
+        }, {
+            "href": "http://leaverou.github.io/prefixfree/",
+            "src": "./img/listimg/Tools/prefixFree.jpg",
+            "hvalue": "Prefix Free",
+            "pvalue": "완벽히 제정되지 않은 CSS3 효과를 적용할 때 각 회사의 브라우저마다 붙여줘야 하는 접두사를 벤더 프리픽스라고 한다. 이러한 벤더 프리픽스를 붙이지 않아도 되게 만들어주는 라이브러리. js파일을 다운받고 스타일시트 아래에 적용시키면 된다."
+        }, {
+            "href": "https://thenounproject.com/",
+            "src": "./img/listimg/Tools/nounproject.jpg",
+            "hvalue": "The Noun Project",
+            "pvalue": "오픈소스 픽토그램의 허브와 같은 서비스로 각종 픽토그램 이미지를 SVG, PNG 포맷으로 제공한다. 사용법은 생활코딩 수업 참고."
+        }, {
+            "href": "https://color.adobe.com/",
+            "src": "./img/listimg/Tools/adobecolorcc.jpg",
+            "hvalue": "Adobe Color CC",
+            "pvalue": "Adobe에서 만든 컬러 선택 및 공유 도구. 자연스럽게 매칭되는 색상 묶음을 만들 수 있다. 사용법은 생활코딩 수업 참고."
+        }
+
+    ],
+    "ETC": [{
+            "title": "그 외",
+            "explanation": "다른 목록에 넣기 애매한 것들을 모아 넣었다. 말그대로 기타 등등"
+        }, {
+            "href": "http://www.olis.or.kr/ossw/license/license/list.do",
+            "src": "./img/listimg/ETC/opensource.jpg",
+            "hvalue": "오픈소스 라이선스",
+            "pvalue": "오픈소스 라이선스의 유형과 관련 전문지식을 한국어로 제공. 한국저작위원회(OLIS)에서 작성."
+        }, {
+            "href": "http://www.cupcakeipsum.com/",
+            "src": "./img/listimg/ETC/cupcakeipsum.jpg",
+            "hvalue": "Cupcake Ipsum",
+            "pvalue": "최종 결과물에 들어가는 실제적인 문장이 채워지기 전에 시각 디자인 모형의 무의미한 글인 Lorem Ipsum을 생성할 수 있다.(영어)"
+        }, {
+            "href": "http://hangul.thefron.me/",
+            "src": "./img/listimg/ETC/koipsum.jpg",
+            "hvalue": "한글입숨",
+            "pvalue": "무의미한 한글 텍스트 생성기."
+        }, {
+            "href": "http://guny.kr/stuff/klorem/",
+            "src": "./img/listimg/ETC/koloremipsum.jpg",
+            "hvalue": "한글 Lorem Ipsum",
+            "pvalue": "한글형 Lorem Ipsum을 생성. 문단, 표, 목록, 순서 목록, 정의 목록 총 5가지 타입으로 생성할 수 있으며 HTML 코드도 제공한다."
+        }, {
+            "href": "https://hashcode.co.kr/",
+            "src": "./img/listimg/Academy/hashcode.jpg",
+            "hvalue": "&#123;&#35;&#125;hashcode",
+            "pvalue": "개발자들을 위한 무료 QnA사이트. 간단한 코드를 실행할 수 있는 코드 실행기 제공"
+        }
+
+    ],
+    "SSG": [{
+            "title": "군인",
+            "explanation": "사지방(인터넷)이 아닌 군의 인트라넷에서 공부하는 방법. 개인적인 경험을 바탕으로 적은거여서 개인차가 많을 수 있다. 그리고 원래 군에서는 관련 특기병 외 프로그램 개발은 하면 안된다. 해당 목록은 해당 사이트로 링크되지 않는다."
+        }, {
+            "href": "",
+            "src": "./img/listimg/SSG/notepad.jpg",
+            "hvalue": "Notepad++",
+            "pvalue": "메모장 보단 에디터라고 할만한 프로그램을 쓰고 싶다면 노트패드++. 인트라넷에 잘 뒤져 보면 나온다. 정말정말 잘 찾으면 이클립스도 있다."
+        }, {
+            "href": "",
+            "src": "./img/listimg/SSG/web.png",
+            "hvalue": "Web",
+            "pvalue": "인트라넷에도 브라우저는 당연히 있다. 잘 찾아보면 크롬과 jQuery(2.x 버전)도 있다. 즉 HTML5, CSS3, JS(및 jQuery) 모두 공부가능하다."
+        }, {
+            "href": "",
+            "src": "./img/listimg/SSG/java.png",
+            "hvalue": "Java",
+            "pvalue": "그렇다. jdk도 존재한다. 개인적으로 군에서 보기 적합한 Java 기본서는 다른거 다 필요없고 이클립스만 안쓰면 된다."
+        }, {
+            "href": "",
+            "src": "./img/listimg/SSG/batch.png",
+            "hvalue": "배치 프로그램",
+            "pvalue": "전산실 배포하는 bat 파일을 예제로 해서 독학(?) 했었는데 솔직히 공부 할것도 없이 간단한 배치 프로그램은 금방 만들 수 있는 것 같다. 필요한 배치파일은 그때 그때 검색해서 만들면 되고 기본적인 명령어만 알고 있으면 금방 익힐 수 있는 것 같다. 물론 간단한 것만."
+        }, {
+            "href": "",
+            "src": "./img/listimg/SSG/warning.png",
+            "hvalue": "주의사항",
+            "pvalue": "1. 게임 만든거 배포 금지.<br>2. 네트워크로 패킷 전송 금지.<br>3. 바이러스/악성코드 개발 금지.<br>4. 사설 서버 작동 금지.<br>지키지 않을 시 CERT와 기무대가 찾아감.<br>군생활 늘어남."
+        }
+
+    ]
+}
